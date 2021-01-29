@@ -1,0 +1,1468 @@
+/* Pertama, lakukan CSS Reset dulu */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* CSS ROFI STARTS HERE */
+
+body {
+	font-family: sans-serif;
+	position: relative;
+}
+
+.container-induk {
+	width: 1440px;
+	position: relative;
+	margin: auto;
+}
+
+.container1 {
+	width: 1440px;
+	height: 960px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.container1 .bg1 {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.header {
+	position: fixed;
+	top: 0px;
+    width: 1440px;
+	height: 90px;
+    background-color: black;
+    opacity: 0.5;
+	z-index: 1;
+}
+
+.header .logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 32.68px;
+	font-style: normal;
+	position: absolute;
+    top: 28.7px;
+    left: 107px;
+}
+
+.header a:hover {
+	background-color: royalblue;
+}
+
+.header li a {
+	color: #ffffff;
+	text-decoration: none;
+	position: absolute;
+	top: 37px;
+}
+
+.header li:nth-child(1) a {
+	left:400px;
+}
+.header li:nth-child(2) a {
+	left: 500px;
+}
+.header li:nth-child(3) a {
+	left: 600px;;
+}
+.header li:nth-child(4) a {
+	left: 720px;
+}
+	
+
+.header li:nth-child(5) a {
+	left: 1100px;
+}
+.header li:nth-child(6) a {
+	left: 1180px;
+}
+
+.play {
+	position: absolute;
+	height: 73.12px;
+	left: 9.22%;
+	right: 10.47%;
+	top: calc(50% - 73.12px/2 - 130.06px);
+	font: normal 700 72px/82.79px arial;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #fff;
+	z-index: 2;
+}
+
+.container1 h3 {
+	position: absolute;
+	left: 33.84%;
+	right: 29.66%;
+	top: 46.23%;
+	bottom: 50.89%;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	/* identical to box height */
+	letter-spacing: 2px;
+	color: #FFFFFF;
+}
+
+.container1 .now {
+	height: 59.999969482421875px;
+	width: 260.3616943359375px;
+	left: 588px;
+	top: 528.7000732421875px;
+	border-radius: 4px;
+	position: absolute;
+	left: 40.83%;
+	right: 41.09%;
+	top: 55.07%;
+	bottom: 38.68%;
+	background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+}
+
+.container1 .story {
+	position: absolute;
+	height: 24.61614990234375px;
+	left: 686.3046875px;
+	top: 873.9175720214844px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: justified;
+	color: #fff;
+}
+
+.container1 svg {
+	position: absolute;
+	height: 8.169122695922852px;
+	width: 20.254405975341797px;
+	left: 708.32421875px;
+	top: 898.5336608886719px;
+	border-radius: 0px;
+}
+
+.container2 {
+	width: 1440px;
+	height: 987px;
+	margin: 0px auto;
+	position: relative;
+}
+.container2 .bg2 {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.container2 h3 {
+	position: absolute;
+	color: #fff;
+	height: 28.421234130859375px;
+	width: 262.292236328125px;
+	left: 82.01123046875px;
+	top: 281.1051025390625px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container2 h1 {
+	position: absolute;
+	color: #fff;
+	height: 73.64273071289062px;
+	width: 411.5010986328125px;
+	left: 78px;
+	top: 323.0867919921875px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 64px;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.container2 .switch {
+	position: absolute;
+	color: #fff;
+	height: 15.999998092651381px;
+	width: 34.00000000000003px;
+	left: 442px;
+	top: 537.7000732421875px;
+	border-radius: 0px;
+}
+
+.container2 .switch1 {
+	position: absolute;
+	color: #fff;
+	height: 13.74267101287843px;
+	width: 34.07338333129886px;
+	left: 1328.821533203125px;
+	top: 537.729736328125px;
+	border-radius: 0px;
+}
+
+.container2 .bg-game {
+	position: absolute;
+	height: 477px;
+	width: 858px;
+	left: 475px;
+	top: 318.70001220703125px;
+	border-radius: 0px;
+}
+
+.container2 .screenshot1 {
+	position: absolute;
+	color: #fff;
+	height: 14px;
+	width: 14px;
+	left: 758.45654296875px;
+	top: 771.546142578125px;
+	border-radius: 0px;
+}
+
+.container2 .screenshot2 {
+	position: absolute;
+	color: #fff;
+	height: 14px;
+	width: 14px;
+	left: 823.22705078125px;
+	top: 771.546142578125px;
+	border-radius: 0px;
+}
+
+.container2 .screenshot3 {
+	position: absolute;
+	color: #fff;
+	height: 14px;
+	width: 14px;
+	left: 889.99755859375px;
+	top: 771.546142578125px;
+	border-radius: 0px;
+}
+
+.container2 .screenshot4 {
+	position: absolute;
+	color: #fff;
+	height: 14px;
+	width: 14px;
+	left: 956.76806640625px;
+	top: 771.9532470703125px;
+	border-radius: 0px;
+}
+
+.container2 .screenshot5 {
+	position: absolute;
+	color: #fff;
+	height: 14px;
+	width: 14px;
+	left: 1023.5390625px;
+	top: 771.9532470703125px;
+	border-radius: 0px;
+}
+
+.container3 {
+	width: 1440px;
+	height: 960px;
+	margin: 0px auto;
+	position: relative;
+}
+.container3 .bg3 {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.container3 h3{
+	position: absolute;
+	color: #fff;
+	height: 27.67254638671875px;
+	width: 262.292236328125px;
+	left: 800.65478515625px;
+	top: 258.82421875px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container3 h1 {
+	position: absolute;
+	color: #fff;
+	height: 73.64273071289062px;
+	width: 411.5010986328125px;
+	left: 796.6435546875px;
+	top: 295.2109375px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 64px;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.container3 .ellipse1 {
+	position: absolute;
+	color: #fff;
+	height: 14.000000000000012px;
+	width: 14.000000000000012px;
+	left: 809.62158203125px;
+	top: 445.9100341796875px;
+	border-radius: 0px;
+}
+
+.container3 h4 {
+	position: absolute;
+	color: #FFB548;
+	height: 38.22958755493164px;
+	width: 348.2001037597656px;
+	left: 809.2919921875px;
+	top: 439.6015625px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.container3 p {
+	position: absolute;
+	color: #fff;
+	height: 77.70355224609375px;
+	width: 362.52117919921875px;
+	left: 842.720703125px;
+	top: 483.0987548828125px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: justified;
+}
+
+.container3 .progress-bar {
+	position: absolute;
+	height: 141.0319824218751px;
+	width: 0px;
+	left: 814.81796875px;
+	top: 450.1068359375px;
+	border-radius: 0px;
+	border: 1.96px solid #FFFFFF;
+}
+
+.container3 .ellipse {
+	position: absolute;
+	color: #fff;
+	height: 14.000000000000012px;
+	width: 14.000000000000012px;
+	left: 809.21435546875px;
+	top: 594.6771240234375px;
+	border-radius: 0px;
+}
+
+.container3 .feature2 {
+	position: absolute;
+	color: #FFB548;
+	height: 38.22958755493164px;
+	width: 366.44244384765625px;
+	left: 842.037109375px;
+	top: 588.4525146484375px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container3 .ellipsetbd {
+	position: absolute;
+	color: #FFB548;
+	height: 14.000000000000012px;
+	width: 14.000000000000012px;
+	left: 809.21435546875px;
+	top: 671.5955810546875px;
+	border-radius: 0px;
+}
+
+.container3 .feature3 {
+	position: absolute;
+	color: #FFB548;
+	height: 38.22958755493164px;
+	width: 348.2001037597656px;
+	left: 842.037109375px;
+	top: 663.3875732421875px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container4 {
+	width: 1440px;
+	height: 960px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.container4 .bg4 {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.container4 h3 {
+	position: absolute;
+	color: #fff;
+	height: 27.672561645507812px;
+	width: 352.8627014160156px;
+	left: 566.27392578125px;
+	top: 145.1630859375px;
+	border-radius: nullpx;
+	height: 27.672561645507812px;
+	width: 352.8627014160156px;
+	left: 566.27392578125px;
+	top: 145.1630859375px;
+	border-radius: nullpx;
+}
+
+.container4 h1 {
+	position: absolute;
+	color: #fff;
+	height: 73.64273834228516px;
+	width: 633.1895751953125px;
+	left: 130px;
+	top: 136.129638671875px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 64px;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.container4 .disquette {
+	position: absolute;
+	color: #fff;
+	height: 400.6877746582031px;
+	width: 573.1981811523438px;
+	left: 120.223876953125px;
+	top: 388.4990234375px;
+	border-radius: 0px;
+}
+
+.container4 .os {
+	position: absolute;
+	color: #FFB548;
+	height: 27.672561645507812px;
+	width: 261.5645751953125px;
+	left: 139.38671875px;
+	top: 403.38427734375px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container4 .windows {
+	position: absolute;
+	color: #fff;
+	height: 44.86882781982422px;
+	width: 257.647216796875px;
+	left: 139.38671875px;
+	top: 437.60009765625px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container4 .processor {
+	position: absolute;
+	color: #FFB548;
+	height: 27.672561645507812px;
+	width: 261.5645751953125px;
+	left: 415.798828125px;
+	top: 403.38427734375px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container4 .intel {
+	position: absolute;
+	color: #fff;
+	height: 54.364463806152344px;
+	width: 258.0487976074219px;
+	left: 415.798828125px;
+	top: 437.435302734375px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container4 .memory {
+	position: absolute;
+	color: #FFB548;
+	height: 27.672561645507812px;
+	width: 261.5645751953125px;
+	left: 130.7294921875px;
+	top: 529.04638671875px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container4 .ram {
+	position: absolute;
+	color: #fff;
+	height: 27.44357681274414px;
+	width: 118.5048828125px;
+	left: 130.7294921875px;
+	top: 564.096923828125px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: justified;
+}
+
+.container4 .storage {
+	position: absolute;
+	color: #FFB548;
+	height: 27.672561645507812px;
+	width: 261.5645751953125px;
+	left: 415.798828125px;
+	top: 529.04638671875px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container4 .available {
+	position: absolute;
+	color: #fff;
+	height: 44px;
+	width: 191.7190399169922px;
+	left: 415.798828125px;
+	top: 564.096923828125px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container4 .graphic {
+	position: absolute;
+	color: #FFB548;
+	height: 27.672561645507812px;
+	width: 261.5645751953125px;
+	left: 130.7294921875px;
+	top: 664.837646484375px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container4 .nvidia {
+	position: absolute;
+	color: #fff;
+	height: 53.12440490722656px;
+	width: 514.3056640625px;
+	left: 130.7294921875px;
+	top: 699.88818359375px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container5 {
+	width: 1440px;
+	height: 960px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.container5 .bg5 {
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
+}
+
+.container5 .bg-rectangle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1440px;
+	height: 960px;
+	margin: 0px auto;
+	background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
+}
+
+.container5 h1 {
+	position: absolute;
+	color: #fff;
+	height: 153.55532836914062px;
+	width: 410.9303894042969px;
+	left: 117.39111328125px;
+	top: 339.62646484375px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 64px;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.container5 .score {
+	position: absolute;
+	color: #fff;
+	height: 57px;
+	width: 379px;
+	left: 120px;
+	top: 425.699951171875px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container5 button {
+	position: absolute;
+	background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+	height: 60px;
+	width: 260.3616027832031px;
+	left: 117px;
+	top: 522.699951171875px;
+	border-radius: 4px;
+}
+
+/* pemain satu */
+
+.container5 .kotak1 {
+	position: absolute;
+	background: #080A0B 8%;
+	height: 182.93756103515625px;
+	width: 452.590087890625px;
+	left: 867.795654296875px;
+	top: 159.157470703125px;
+	border-radius: 10px;
+}
+
+.container5 .ellipse-photo1 {
+	position: absolute;
+	color: #FFB548;
+	height: 64.30625915527344px;
+	width: 64.30625915527344px;
+	left: 890.234130859375px;
+	top: 175.116455078125px;
+	border-radius: 0px;
+}
+
+.container5 .photo1 {
+	position: absolute;
+	height: 61.830291748046875px;
+	width: 61.9163818359375px;
+	left: 884.5859375px;
+	top: 173.62744140625px;
+	border-radius: [object Object]px;
+}
+
+.container5 .player1 {
+	position: absolute;
+	color: #FFB548;
+	height: 27.672561645507812px;
+	width: 261.9283447265625px;
+	left: 976.813232421875px;
+	top: 185.45751953125px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container5 .workplace1 {
+	position: absolute;
+	color: #aeaeae;
+	height: 35.41864013671875px;
+	width: 384.1898193359375px;
+	left: 976.813232421875px;
+	top: 206.88525390625px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: justified;
+}
+
+.container5 .quote1 {
+	position: absolute;
+	color: #fff;
+	height: 30.293243408203125px;
+	width: 357.28692626953125px;
+	left: 884.5859375px;
+	top: 262.158203125px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container5 .date1 {
+	position: absolute;
+	color: #aeaeae;
+	height: 20px;
+	width: 230.31988525390625px;
+	left: 884.400390625px;
+	top: 300.9638671875px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container5 .twitter1 {
+	position: absolute;
+	color: #aeaeae;
+	height: 14px;
+	width: 18.0250244140625px;
+	left: 1282.373046875px;
+	top: 189.45703125px;
+	border-radius: 0px;
+}
+
+/* pemain dua */
+
+.container5 .kotak2 {
+	position: absolute;
+	background: #080A0B 8%;
+	height: 205px;
+	width: 453.88677978515625px;
+	left: 721.671875px;
+	top: 372.06640625px;
+	border-radius: 10px;	
+}
+
+.container5 .ellipse-photo2 {
+	position: absolute;
+	color: #FFB548;
+	height: 64.09435272216797px;
+	width: 64.30625915527344px;
+	left: 744.313232421875px;
+	top: 387.97314453125px;
+	border-radius: 0px;	
+}
+
+.container5 .photo2 {
+	position: absolute;
+	height: 61.626556396484375px;
+	width: 61.91632080078125px;
+	left: 738.462158203125px;
+	top: 386.48876953125px;
+	border-radius: [object Object]px;
+}
+
+.container5 .player2 {
+	position: absolute;
+	color: #FFB548;
+	height: 23.9208984375px;
+	width: 200.16546630859375px;
+	left: 830.689453125px;
+	top: 398.27978515625px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;		
+}
+
+.container5 .workplace2 {
+	position: absolute;
+	color: #aeaeae;
+	height: 35.30194091796875px;
+	width: 384.18988037109375px;
+	left: 830.689453125px;
+	top: 419.63720703125px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: justified;
+}
+
+.container5 .quote2 {
+	position: absolute;
+	color: #fff;
+	height: 60.17974853515625px;
+	width: 389.9666748046875px;
+	left: 738.462158203125px;
+	top: 474.72802734375px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: left;		
+}
+
+.container5 .date2 {
+	position: absolute;
+	color: #aeaeae;
+	height: 17.940673828125px;
+	width: 230.31988525390625px;
+	left: 738.462158203125px;
+	top: 537.860595703125px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container5 .twitter2 {
+	position: absolute;
+	color: #aeaeae;
+	height: 13.953857421875px;
+	width: 18.02490234375px;
+	left: 1136.248779296875px;
+	top: 402.26611328125px;
+	border-radius: 0px;
+}	
+
+/* pemain tiga */
+
+.container5 .kotak3 {
+	position: absolute;
+	background: #080A0B 8%;
+	height: 205px;
+	width: 453.8868408203125px;
+	left: 827.4638671875px;
+	top: 607.036865234375px;
+	border-radius: 10px;		
+}
+
+.container5 .ellipse-photo3 {
+	position: absolute;
+	color: #FFB548;
+	height: 64.30625915527344px;
+	width: 64.30625915527344px;
+	left: 849.95849609375px;
+	top: 622.995849609375px;
+	border-radius: 0px;	
+}
+
+.container5 .photo3 {
+	position: absolute;
+	height: 61.830322265625px;
+	width: 61.91632080078125px;
+	left: 844.25439453125px;
+	top: 621.506591796875px;
+	border-radius: [object Object]px;
+}
+
+.container5 .player3 {
+	position: absolute;
+	color: #FFB548;
+	height: 27.67254638671875px;
+	width: 261.9283447265625px;
+	left: 936.4814453125px;
+	top: 633.336669921875px;
+	border-radius: nullpx;	
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;		
+}
+
+.container5 .workplace3 {
+	position: absolute;
+	color: #aeaeae;
+	height: 35.41864013671875px;
+	width: 384.1898193359375px;
+	left: 936.4814453125px;
+	top: 654.764404296875px;
+	border-radius: nullpx;	
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: justified;
+}
+
+.container5 .quote3 {
+	position: absolute;
+	color: #fff;
+	height: 42.99609375px;
+	width: 407.29071044921875px;
+	left: 844.25439453125px;
+	top: 710.037841796875px;
+	border-radius: nullpx;	
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: left;		
+}
+
+.container5 .date3 {
+	position: absolute;
+	color: #aeaeae;
+	height: 20px;
+	width: 230.3199462890625px;
+	left: 843.933349609375px;
+	top: 770.447021484375px;
+	border-radius: nullpx;	
+	font-family: sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0px;
+	text-align: left;
+	
+}
+
+.container5 .twitter3 {
+	position: absolute;
+	color: #aeaeae;
+	height: 14px;
+	width: 18.0250244140625px;
+	left: 1242.041015625px;
+	top: 637.336181640625px;
+	border-radius: 0px;
+}	
+
+.container6 {
+	width: 1440px;
+	height: 960px;
+	margin: 0px auto;
+	position: relative;
+	background: #080A0B;
+}
+
+.container6 .bg6 {
+	position: relative;
+	height: 694.408447265625px;
+	width: 445.466552734375px;
+	left: 159.960205078125px;
+	top: 49.97607421875px;
+	border-radius: 0px;
+}
+
+.container6 h3 {
+	position: absolute;
+	color: #fff;
+	height: 27.788345336914062px;
+	width: 261.5645751953125px;
+	left: 675.91796875px;
+	top: 220.21240234375px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.container6 h1 {
+	position: absolute;
+	color: #fff;
+	height: 76.28014373779297px;
+	width: 677.2380981445312px;
+	left: 672.8779296875px;
+	top: 256.552734375px;
+	border-radius: nullpx;
+	font-family: Arial;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 92px;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.container6 .inorder{
+	position: absolute;
+	color: #fff;
+	height: 136.56881713867188px;
+	width: 644.958740234375px;
+	left: 675.00146484375px;
+	top: 438.68701171875px;
+	border-radius: nullpx;
+	font-family: Open Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container6 .kotak1 {
+	position: absolute;
+	background: #080A0B 8%;
+	height: 60px;
+	width: 366.9217529296875px;
+	left: 675.91796875px;
+	top: 510.7021484375px;
+	border-radius: 5px;
+}
+
+.container6 .youremail {
+	position: absolute;
+	color: #aeaeae;
+	height: 20px;
+	width: 177.94541931152344px;
+	left: 697.111572265625px;
+	top: 516.845703125px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container6 .email {
+	position: absolute;
+	color: #FFB548;
+	height: 43.17596435546875px;
+	width: 406.72509765625px;
+	left: 697.1953125px;
+	top: 537.689453125px;
+	border-radius: nullpx;
+	font-family: Open Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.container6 .subscribe {
+	position: absolute;
+	height: 60.2510986328125px;
+	width: 260px;
+	left: 1060.05908203125px;
+	top: 510.57666015625px;
+	border-radius: 4px;
+	background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+}
+
+.footer {
+	position: absolute;
+	height: 233px;
+	width: 1440px;
+	left: 0px;
+	top: 723px;
+	border-radius: 0px;
+}
+
+.footer li a {
+	position: absolute;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.footer li a:hover {
+	background-color: royalblue;
+}
+
+.footer .main {
+	height: 20.187374114990234px;
+	width: 35.50887298583984px;
+	left: 379.938720703125px;
+	top: 80.93701171875px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	text-align: right;	
+}
+
+.footer .about {
+	height: 20.187374114990234px;
+	width: 50.8087387084961px;
+	left: 462.48876953125px;
+	top: 80.93701171875px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	text-align: right;
+}
+
+.footer .game {
+	height: 20.187374114990234px;
+	width: 118.80372619628906px;
+	left: 551.4833984375px;
+	top: 80.93701171875px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	text-align: left;
+}
+
+.footer .system {
+	height: 20.187374114990234px;
+	width: 172.29269409179688px;
+	left: 712.326904296875px;
+	top: 80.93701171875px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	text-align: left;
+}
+
+.footer .quotes {
+	height: 21.40279769897461px;
+	width: 60.83201599121094px;
+	left: 928.805419921875px;
+	top: 80.32958984375px;
+	border-radius: nullpx;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	text-align: right;
+}
+
+.footer .facebook {
+	height: 18.98900032043457px;
+	width: 9.227999687194824px;
+	left: 1076.517822265625px;
+	top: 77.18359375px;
+	border-radius: 0px;
+}
+
+.footer .twitter {
+	height: 16.000999450683594px;
+	width: 21.007999420166016px;
+	left: 1145.205810546875px;
+	top: 79.53466796875px;
+	border-radius: 0px;
+}
+
+.footer .youtube {
+	height: 17.99448013305664px;
+	width: 24.994586944580078px;
+	left: 1220.7998046875px;
+	top: 77.18359375px;
+	border-radius: 0px;
+}
+
+.footer .twitch {
+	height: 18.16483497619629px;
+	width: 19.148935317993164px;
+	left: 1298.811279296875px;
+	top: 79.68017578125px;
+	border-radius: 0px;
+}
+
+.footer .copyright {
+	position: absolute;
+	color: #aeaeae;
+	height: 21.89652442932129px;
+	width: 339.88232421875px;
+	left: 120.223876953125px;
+	top: 163.80615234375px;
+	border-radius: nullpx;
+}
+
+.footer .terms {
+	position: absolute;
+	color: #fff;
+	height: 21.40279769897461px;
+	width: 443.285400390625px;
+	left: 946.6044921875px;
+	top: 166.03173828125px;
+	border-radius: nullpx;
+}
+
+.footer .terms a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer .terms a:hover {
+	background-color: royalblue;
+}
+
+.footer .border {
+	position: absolute;
+	width: 1197.8212890625045px;
+	height: 0;
+	left: 120.223876953125px;
+	top: 141.80615234375px;
+	border-radius: 0px;
+	border: 0.87px solid #FFFFFF
+}
+
+
+
+
+
+/* WEBSITE RESPONSIVE MENGGUNAKAN MEDIA QUERY DIMULAI DARI SINI */
+
+@media only screen and (max-width: 992px) {
+	.container1 .header {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.play {
+		position: absolute;
+		height: 73.12px;
+		left: 0;
+		top: calc(50% - 73.12px/2 - 130.06px);
+		font: normal 700 72px/82.79px arial;
+		text-align: left;
+		letter-spacing: 3px;
+		color: #fff;
+		z-index: 2;
+	}
+	
+	.container1 h3 {
+		position: absolute;
+		left: 0;
+		top: 46.23%;
+		bottom: 50.89%;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 28px;
+		/* identical to box height */
+		letter-spacing: 2px;
+		color: #FFFFFF;
+	}
+	
+	.container1 .now {
+		height: 59.999969482421875px;
+		width: 260.3616943359375px;
+		left: 0;
+		top: 528.7000732421875px;
+		border-radius: 4px;
+		position: absolute;
+		left: 0;
+		top: 55.07%;
+		bottom: 38.68%;
+		background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+	}
+	
+	.container1 .story {
+		position: absolute;
+		height: 24.61614990234375px;
+		left: 0px;
+		top: 873.9175720214844px;
+		border-radius: nullpx;
+		font-family: sans-serif;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22px;
+		letter-spacing: 0px;
+		text-align: justified;
+		color: #fff;
+	}
+	
+	.container1 svg {
+		position: absolute;
+		height: 8.169122695922852px;
+		width: 20.254405975341797px;
+		left: 0;
+		top: 898.5336608886719px;
+		border-radius: 0px;
+	}
+}
+

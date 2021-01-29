@@ -1,0 +1,320 @@
+/*CSS RESET DULU*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*CSS SUIT JEPANG MULAI DARI SINI*/
+body {
+	font-family: sans-serif;
+	position: relative;
+}
+
+.container-induk {
+	position: relative;
+	width: 1440px;
+	margin: auto;
+}
+.group1 {
+	position: absolute;
+	height: 1024px;
+	width: 1440px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+	background: : #9C835F;
+}
+
+h1.back {
+	position: absolute;
+	height: 87px;
+	width: 55px;
+	left: 37px;
+	top: 12px;
+	border-radius: nullpx;
+	font-family: Open Sans;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 98px;
+	letter-spacing: 0.1em;
+	text-align: left;
+	background: #9C835F;
+	color: #724C21;
+}
+
+.logo1 {
+	position: absolute;
+	height: 72px;
+	width: 72px;
+	left: 119px;
+	top: 27px;
+	border-radius: 0px;
+}
+
+h1.judul {
+	position: absolute;
+	height: 62px;
+	width: 420px;
+	left: 218px;
+	top: 40px;
+	border-radius: nullpx;
+	font-family: Open Sans;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #F9B23D;
+}
+
+h2.player1 {
+	position: absolute;
+	height: 94px;
+	width: 299px;
+	left: 296px;
+	top: 162px;
+	border-radius: nullpx;
+	font-family: Open Sans;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	color: #000000;
+}
+
+h2.com {
+	position: absolute;
+	height: 94px;
+	width: 299px;
+	left: 865px;
+	top: 162px;
+	border-radius: nullpx;
+	font-family: Open Sans;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	color: #000000;
+}
+
+.kotak-batu-player {
+	position: absolute;
+	height: 204px;
+	width: 223px;
+	left: 334px;
+	top: 222px;
+	border-radius: 30px;
+	background-color: #C4C4C4;
+}
+
+#batu1 {
+	position: absolute;
+	height: 92px;
+	width: 128px;
+	left: 382px;
+	top: 267px;
+	border-radius: 0px;
+}
+
+.kotak-batu-comp {
+	position: absolute;
+	height: 204px;
+	width: 223px;
+	left: 910px;
+	top: 222px;
+	border-radius: 30px;
+	background-color: #C4C4C4;
+}
+
+#batu2 {
+	position: absolute;
+	height: 92px;
+	width: 128px;
+	left: 951px;
+	top: 267px;
+	border-radius: 0px;
+}
+
+.kotak-kertas-player {
+	position: absolute;
+	height: 204px;
+	width: 223px;
+	left: 334px;
+	top: 413px;
+	border-radius: 30px;
+	background-color: #C4C4C4;
+}
+
+#kertas1 {
+	position: absolute;
+	height: 150px;
+	width: 115px;
+	left: 388px;
+	top: 440px;
+	border-radius: 0px;
+}
+
+.kotak-kertas-comp {
+	position: absolute;
+	height: 204px;
+	width: 223px;
+	left: 910px;
+	top: 413px;
+	border-radius: 30px;
+	background-color: #C4C4C4;
+}
+#kertas2 {
+	position: absolute;
+	height: 150px;
+	width: 115px;
+	left: 970px;
+	top: 440px;
+	border-radius: 0px;
+}
+
+.kotak-gunting-player {
+	position: absolute;
+	height: 204px;
+	width: 223px;
+	left: 334px;
+	top: 651px;
+	border-radius: 30px;
+	background-color: #C4C4C4;
+}
+
+#gunting1{
+	position: absolute;
+	height: 160px;
+	width: 134px;
+	left: 369px;
+	top: 671px;
+	border-radius: 0px;
+}
+
+.kotak-gunting-comp {
+	position: absolute;
+	height: 204px;
+	width: 223px;
+	left: 910px;
+	top: 651px;
+	border-radius: 30px;
+	background-color: #C4C4C4;
+}
+
+#gunting2 {
+	position: absolute;
+	height: 160px;
+	width: 134px;
+	left: 951px;
+	top: 671px;
+	border-radius: 0px;
+}
+
+p.vs {
+	position: absolute;
+	height: 186px;
+	width: 296px;
+	left: 589px;
+	top: 419px;
+	border-radius: nullpx;
+	font-family: Open Sans;
+	font-size: 144px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 196px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	color: #BD0000;
+}
+
+
+.refresh {
+	position: absolute;
+	height: 71px;
+	width: 77px;
+	left: 681px;
+	top: 843px;
+	border-radius: 0px;
+}
+
+.kotak-hasil {
+	position: absolute;
+	height: 166.9274133441746px;
+	width: 271.10806177575824px;
+	left: 600px;
+	top: 422.89105224609375px;
+	border-radius: 10px;
+	background-color: #4C9654;
+	transform: rotate(-28.87deg);
+}
+
+.info-hasil {
+	position: absolute;
+	height: 185.999997604632px;
+	width: 295.99999618801655px;
+	left: 600px;
+	top: 422.89105224609375px;
+	border-radius: nullpx;
+	font-family: Open Sans;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 65px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	transform: rotate(-30.98deg);
+}
